@@ -1,0 +1,47 @@
+{
+  "name": "@volpe/milestone",
+  "description": "Simple library for handling events through observer pattern",
+  "author": "Volpe",
+  "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "https://github.com/VolpeIT/milestone",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/VolpeIT/milestone"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VolpeIT/milestone"
+  },
+  "keywords": [
+    "observer",
+    "milestone"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest --coverage"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.4",
+    "@vitest/coverage-c8": "^0.31.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-plugin-dts": "^2.3.0",
+    "vitest": "^0.31.0"
+  },
+  "main": "./dist/volpe-observer.umd.cjs",
+  "module": "./dist/volpe-observer.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/volpe-observer.js",
+      "require": "./dist/volpe-observer.umd.cjs"
+    }
+  }
+}
