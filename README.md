@@ -6,7 +6,7 @@
 
 ### Usage
 ```js
-import { Event } from '@volpe/milestone
+import { Event } from '@volpe/milestone'
 
 // Create the event
 const onclick = new Event()
