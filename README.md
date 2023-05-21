@@ -1,8 +1,10 @@
+
 # Volpe Observer
 
 ### Install
-`npm i @volpe/milestone`
-`yarn add @volpe/milestone`
+```npm i @volpe/milestone```
+</br>
+```yarn add @volpe/milestone```
 
 ### Usage
 ```js
@@ -21,4 +23,5 @@ window.addEventListener('click', onclick.invoke)
 // Remove listener
 onclick.remove(handleOnClick)
 ```
+
 
